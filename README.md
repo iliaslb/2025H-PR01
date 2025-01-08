@@ -73,8 +73,9 @@ Ici, vous devez implémenter le mouvement des raquettes des joueurs 1 et 2 pour 
 Le mouvement de la raquette du joueur 1 doit être contrôlé par les touches `w` (haut) et `s` (bas) du clavier pour les déplacements de haut en bas, respectivement. 
 Le mouvement de la raquette du joueur 2 doit être contrôlé par les flèches `UP` (haut) et `DOWN` (bas) du clavier. 
 
-* Note 1 : Vous devez utiliser la variable `paddle_speed` pour gérer le mouvement des raquettes. 
-* Note 2 : Lorsque les raquettes atteignent le haut ou le bas de la fenêtre de jeu, elles ne doivent pas dépasser ces limites. Assurez-vous que leur position reste dans les bornes définies par la hauteur de l'écran.
+* Note 1 : Pour la gestion des touches de clavier, utilisez les fonctions du [module `key` de la librairie pygame](https://www.pygame.org/docs/ref/key.html#pygame.key.get_pressed).
+* Note 2 : Vous devez utiliser la variable `paddle_speed` pour gérer le mouvement des raquettes. 
+* Note 3 : Lorsque les raquettes atteignent le haut ou le bas de la fenêtre de jeu, elles ne doivent pas dépasser ces limites. Assurez-vous que leur position reste dans les bornes définies par la hauteur de l'écran.
 
 #### 3.2 : Implémentation du mouvement des raquettes pour l'option "single player"
 - Le joueur 1 contrôle sa raquette avec les touches `w` (haut) et `s` (bas), comme dans le mode "multi player".
