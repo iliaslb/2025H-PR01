@@ -38,7 +38,7 @@ Le projet est organisé de la manière suivante :
 Détails sur les fichiers : 
 - Le fichier `config.py` contient les paramètres d'intialisation du jeu, telles que les dimensions et la vitesse des raquettes et de la balle.
 - Le fichier `menus.py` contient les menus d'affichage, tels que le menu principal et le menu de sélection de la difficulté. 
-- Le fichier `game.py` contient la logique du jeu. C'est dans ce fichier que vous allez travailler.
+- Le fichier `game.py` contient la logique du jeu. 
 - Le fichier `main.py` est le fichier qui permet de démarrer le jeu. C'est ce fichier que vous allez exécuter. 
 
 ## Travail à réaliser
