@@ -58,7 +58,7 @@ Par la suite, vous devez implémenter le mouvement de la balle dans une directio
 *Pour cette partie, vous aurez à compléter les sections suivantes à l'intérieur de la fonction `reset_ball` dans le fichier `game.py`. Cette fonction gère la réinitialisation de la balle dans le jeu lorsqu'un joueur compte un point.*
 
 #### 2.1 : Réinitialisation de la position de la balle en x
-Ici, vous devez redéfinir la position de la balle pour qu'elle soit centrée en x (c'est-à-dire, sur la ligne pointillée). Sa position en y doit toutefois être aléatoire, permettant à la balle de revenir à un point quelconque sur la ligne pointillée après chaque point. 
+Ici, vous devez redéfinir la position de la balle pour qu'elle soit centrée en x (c'est-à-dire, sur la ligne pointillée). Sa position en y doit toutefois être aléatoire, permettant à la balle de commencer à un point quelconque sur la ligne pointillée après chaque point. 
 
 #### 2.2 : Réinitialisation de la position de la balle en y 
 Si le joueur 2 a gagné un point, relancer la balle de son côté (à la gauche) avec une direction aléatoire en y (par en haut ou par en bas).
