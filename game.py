@@ -73,9 +73,11 @@ def play_game(player1_y, player2_y, player1_score, player2_score, ball_x, ball_y
         # Le mouvement de la raquette du joueur 1 doit être contrôlé par les touches "w" et "s" du clavier pour les déplacements de haut en bas, respectivement. 
         # Le mouvement de la raquette du joueur 2 doit être contrôlé par les flèches en haut et en bas du clavier. 
         #
-        # * Note 1 : Vous devez utiliser la variable "paddle_speed" pour gérer les déplacements des raquettes. 
+        # * Note 1 : Pour la gestion des touches de clavier, utilisez les fonctions du module key de la librairie pygame.
         #
-        # * Note 2 : Lorsque les raquettes atteignent le haut ou le bas de la fenêtre de jeu, elles ne doivent pas dépasser ces limites. 
+        # * Note 2 : Vous devez utiliser la variable "paddle_speed" pour gérer les déplacements des raquettes. 
+        #
+        # * Note 3 : Lorsque les raquettes atteignent le haut ou le bas de la fenêtre de jeu, elles ne doivent pas dépasser ces limites. 
         #          Assurez-vous que leur position reste dans les bornes définies par la hauteur de l'écran.
 
 
