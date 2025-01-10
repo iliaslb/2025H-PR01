@@ -1,7 +1,7 @@
 # Projet 1 - INF1007 H2025
 
 ## Directives
-:alarm_clock: Date de remise : Le 16 février
+:alarm_clock: Date de remise : Le 16 février 2025
 
 :mailbox_with_mail: À remettre sur Moodle
 
