@@ -19,14 +19,21 @@ def reset_ball(ball_x, ball_y, ball_velocity_x, ball_velocity_y):
     """ 
     Fonction pour réinitialiser la balle lorsqu'un joueur gagne un point
     """
+
+    
     
     # TODO : RÉINITIALISER LA POSITION DE LA BALLE AU CENTRE DU JEU
     # Ici, vous devez redéfinir la position de la balle pour qu'elle soit au centre de la fenêtre du jeu en x (c'est-à-dire, sur la ligne pointillée)
-
+    ball_x = SCREEN_WIDTH // 2 # Remplacer "0" par votre réponse
+    ball_y = random.randint(0, SCREEN_HEIGHT)
 
     # TODO : LANCEMENT DE LA BALLE APRÈS RÉINITIALISATION
     # Si le joueur 2 a gagné un point, relancer la balle de son côté (à la gauche) avec une position aléatoire en y (par en haut ou par en bas), à partir de la ligne pointillée
     # Si le joueur 1 a gagné un point, relancer la balle de son côté (à la droite) avec une position aléatoire en y (par en haut ou par en bas), à partir de la ligne pointillée
+    
+    
+    ball_velocity_x *= -1
+    ball_velocity_y *= (-1)**random.randint(0, 1)
 
     return ball_x, ball_y, ball_velocity_x, ball_velocity_y
 
